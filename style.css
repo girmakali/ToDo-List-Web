@@ -1,0 +1,57 @@
+.container{
+  margin: 80px;
+  border: 1px solid grey;
+  padding: 50px;
+  width: 400px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 50px;
+}
+ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 310px;
+}
+
+body{
+  background-color: rgb(6, 6, 35);
+}
+.add{
+  background-color: rgb(9, 48, 48);
+  color: white;
+  border: none;
+  padding: 12px 25px ;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+input{
+  padding: 10px ;
+  border-radius: 5px;
+  font-size: medium;
+}
+ul li{
+  display: grid;
+  grid-template-columns: 0.2fr 3fr 0.8fr;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ul li button{
+  height: 30px;
+  padding: 5px;
+  background-color: rgb(132, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+ul li label {
+  margin: 5px;
+  display: inline-block;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+
